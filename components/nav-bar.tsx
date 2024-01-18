@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { HamburgerMenuIcon, RocketIcon } from "@radix-ui/react-icons";
 import ModeToggle from "@/components/mode-toggle";
-import ghill_log from "../../public/ghill_log.png";
+
 import {
   Popover,
   PopoverContent,
@@ -123,12 +123,6 @@ export default function MainNav() {
 
         <div className="text-foreground"></div>
         <div className="flex items-center gap-x-4">
-          <Image
-            src={ghill_log}
-            alt="ghill"
-            className="rounded-lg"
-            width={100}
-          />
           <ModeToggle />
           <div className="block md:hidden">
             <Popover>
